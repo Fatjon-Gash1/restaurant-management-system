@@ -1,0 +1,21 @@
+
+1. Translate web app to Albanian, both Admin&User interfaces.-
+
+2. Create Sign up&Log in for Admin&User page
+
+3. Create similar fitting Logo and background, and change Images.-
+4. Check if the web app should be built for delivery or as local npm run.-
+
+//DB useful commands:
+
+use RMSDB
+ALTER TABLE Tradicional
+ALTER COLUMN Price decimal(3,2);
+
+use RMSDB
+insert into Tradicional (TradicionalName, Price)
+values ('Kallamojt', 12.99);
+
+USE RMSDB
+delete from Tradicional
+where TradicionalId =16;
