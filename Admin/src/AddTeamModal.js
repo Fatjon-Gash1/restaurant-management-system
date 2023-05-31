@@ -43,7 +43,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Shtoni Anëtar në Staff
+            Shtoni një Anëtar
         </Modal.Title>
     </Modal.Header>
     <Modal.Body>
@@ -65,8 +65,14 @@ centered
                     
                     <Form.Group controlId="Position">
                         <Form.Label>Pozita</Form.Label>
-                        <Form.Control type="text" name="Position" required 
-                        placeholder="Caktoni pozitën"/>
+                        <Form.Control as="select" name="Position" required 
+                        defaultValue={this.props.position}>
+                        <option value="Pacaktuar">Pacaktuar</option>
+                        <option value="IT">IT</option>
+                        <option value="Menagjer">Menagjer</option>
+                        <option value="Kuzhinier">Kuzhinier</option>
+                        <option value="Kamarier">Kamarier</option>
+                        </Form.Control>
                     </Form.Group>
 
                     <Form.Group>

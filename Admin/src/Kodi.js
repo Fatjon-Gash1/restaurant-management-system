@@ -54,9 +54,9 @@ export class Kodi extends Component {
                 <Table className="mt-4" striped bordered hover size="sm" className="big-screen" variant="dark">
                     <thead>
                         <tr>
-                            <th>KodiId</th>
-                            <th>KodiName</th>
-                            <th>Options</th>
+                            <th>Numri</th>
+                            <th>Emri i Tavolinës</th>
+                            <th>Opsionet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -71,12 +71,12 @@ export class Kodi extends Component {
                                                 editModalShow: true,
                                                 tavid: tav.KodiId, tavname: tav.KodiName
                                             })}>
-                                            Edit
+                                            Editoni
         </Button>
 
                                         <Button className="mr-2" variant="danger"
                                             onClick={() => this.deleteTav(tav.KodiId)}>
-                                            Delete
+                                            Fshij
         </Button>
 
                                         <EditKodiModal show={this.state.editModalShow}
@@ -95,7 +95,7 @@ export class Kodi extends Component {
                 <ButtonToolbar>
                     <Button variant='primary'
                         onClick={() => this.setState({ addModalShow: true })}>
-                        Shto Tavolinen</Button>
+                        Shtoni Tavolinën</Button>
 
                     <AddKodiModal show={this.state.addModalShow}
                         onHide={addModalClose} />

@@ -31,7 +31,7 @@ export class Restaurant extends Component {
     }
 
     deleteRes(resid) {
-        if (window.confirm('Are you sure?')) {
+        if (window.confirm('A jeni i Sigurt?')) {
             fetch('https://localhost:44365/api/restaurant/' + resid, {
                 method: 'DELETE',
                 header: {
@@ -53,10 +53,10 @@ export class Restaurant extends Component {
                 <Table className="mt-4" striped bordered hover size="sm" className="big-screen" variant="dark">
                     <thead>
                         <tr>
-                            <th>RestaurantId</th>
-                            <th>RestaurantName</th>
+                            <th>Numri</th>
+                            <th>Emri i Restaurantit</th>
                             <th>Lokacioni</th>
-                            <th>Options</th>
+                            <th>Opsionet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -72,12 +72,12 @@ export class Restaurant extends Component {
                                                 editModalShow: true,
                                                 resid: res.RestaurantId, resname: res.RestaurantName, resname: res.Lokacioni
                                             })}>
-                                            Edit
+                                            Editoni
         </Button>
 
                                         <Button className="mr-2" variant="danger"
                                             onClick={() => this.deleteRes(res.RestaurantId)}>
-                                            Delete
+                                            Fshij
         </Button>
 
                                         <EditResModal show={this.state.editModalShow}
@@ -96,8 +96,12 @@ export class Restaurant extends Component {
 
                 <ButtonToolbar>
                     <Button variant='primary' className="bigbutton"
-                        onClick={() => this.setState({ addModalShow: true })}>
-                        Add Restaurant</Button>
+                        onClick={() => {
+                            this.setState({
+                                addModalShow: true
+                            });
+                        }}>
+                        Shtoni Restaurant</Button>
 
                     <AddResModal show={this.state.addModalShow}
                         onHide={addModalClose} />

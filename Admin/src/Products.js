@@ -33,7 +33,7 @@ export class Food extends Component {
     }
 
     deleteFoodItem(fooditemid) {
-        if (window.confirm('Are you sure?')) {
+        if (window.confirm('A jeni i Sigurt?')) {
             fetch('https://localhost:44365/api/fooditem/' + fooditemid, {
                 method: 'DELETE',
                 header: {
@@ -52,10 +52,10 @@ export class Food extends Component {
                 <Table className="mt-4" striped bordered hover size="sm">
                     <thead>
                         <tr>
-                            <th>FoodItemId</th>
-                            <th>FoodItemName</th>
-                            <th>Price</th>
-                            <th>Options</th>
+                            <th>Numri</th>
+                            <th>Emri i Ushqimit</th>
+                            <th>Çmimi</th>
+                            <th>Opsionet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -71,12 +71,12 @@ export class Food extends Component {
                                                 editModalShow: true,
                                                 fooditemid: fooditem.FoodItemId, fooditemname: fooditem.FoodItemName, price: fooditem.Price
                                             })}>
-                                            Edit
+                                            Editoni
         </Button>
 
                                         <Button className="mr-2" variant="danger"
                                             onClick={() => this.deleteFoodItem(fooditem.FoodItemId)}>
-                                            Delete
+                                            Fshij
         </Button>
 
                                         <EditFoodItemModal show={this.state.editModalShow}
@@ -97,7 +97,7 @@ export class Food extends Component {
                 <ButtonToolbar>
                     <Button variant='primary'
                         onClick={() => this.setState({ addModalShow: true })}>
-                        Add FoodItem</Button>
+                        Shtoni Ushqimin</Button>
 
                     <AddFoodItemModal show={this.state.addModalShow}
                         onHide={addModalClose} />
@@ -132,7 +132,7 @@ export class Drinks extends Component {
     }
 
     deleteDrink(drinkid) {
-        if (window.confirm('Are you sure?')) {
+        if (window.confirm('A jeni i Sigurt?')) {
             fetch('https://localhost:44365/api/drink/' + drinkid, {
                 method: 'DELETE',
                 header: {
@@ -151,10 +151,10 @@ export class Drinks extends Component {
                 <Table className="mt-4" striped bordered hover size="sm">
                     <thead>
                         <tr>
-                            <th>DrinkId</th>
-                            <th>DrinkName</th>
-                            <th>Price</th>
-                            <th>Options</th>
+                            <th>Numri</th>
+                            <th>Emri i Pijes</th>
+                            <th>Çmimi</th>
+                            <th>Opsionet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -170,12 +170,12 @@ export class Drinks extends Component {
                                                 editModalShow: true,
                                                 drinkid: drink.DrinkId, drinkname: drink.DrinkName, price: drink.Price
                                             })}>
-                                            Edit
+                                            Editoni
         </Button>
 
                                         <Button className="mr-2" variant="danger"
                                             onClick={() => this.deleteDrink(drink.DrinkId)}>
-                                            Delete
+                                            Fshij
         </Button>
 
                                         <EditDrinkModal show={this.state.editModalShow}
@@ -196,7 +196,7 @@ export class Drinks extends Component {
                 <ButtonToolbar>
                     <Button variant='primary'
                         onClick={() => this.setState({ addModalShow: true })}>
-                        Add Drink</Button>
+                        Shtoni Pijen</Button>
 
                     <AddDrinkModal show={this.state.addModalShow}
                         onHide={addModalClose} />
@@ -239,7 +239,7 @@ export class Other extends Component {
     }
 
     deleteOther(otherid) {
-        if (window.confirm('Are you sure?')) {
+        if (window.confirm('A jeni i Sigurt?')) {
             fetch('https://localhost:44365/api/other/' + otherid, {
                 method: 'DELETE',
                 header: {
@@ -258,10 +258,10 @@ export class Other extends Component {
                 <Table className="mt-4" striped bordered hover size="sm">
                     <thead>
                         <tr>
-                            <th>OtherId</th>
-                            <th>OtherName</th>
-                            <th>Price</th>
-                            <th>Options</th>
+                            <th>Numri</th>
+                            <th>Emri i Të Tjerave</th>
+                            <th>Çmimi</th>
+                            <th>Opsionet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -277,12 +277,12 @@ export class Other extends Component {
                                                 editModalShow: true,
                                                 otherid: other.OtherId, othername: other.OtherName, price: other.Price
                                             })}>
-                                            Edit
+                                            Editoni
         </Button>
 
                                         <Button className="mr-2" variant="danger"
                                             onClick={() => this.deleteOther(other.OtherId)}>
-                                            Delete
+                                            Fshij
         </Button>
 
                                         <EditOtherModal show={this.state.editModalShow}
@@ -303,7 +303,7 @@ export class Other extends Component {
                 <ButtonToolbar>
                     <Button variant='primary'
                         onClick={() => this.setState({ addModalShow: true })}>
-                        Add Other Products</Button>
+                        Shtoni Produkte Tjera</Button>
 
                     <AddOtherModal show={this.state.addModalShow}
                         onHide={addModalClose} />

@@ -40,7 +40,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Edit Kodi
+            Editoni Kodin
         </Modal.Title>
     </Modal.Header>
     <Modal.Body>
@@ -49,23 +49,23 @@ centered
             <Col sm={6}>
                 <Form onSubmit={this.handleSubmit}>
                 <Form.Group controlId="KodiId">
-                        <Form.Label>KodiId</Form.Label>
+                        <Form.Label>Numri</Form.Label>
                         <Form.Control type="text" name="KodiId" required
                         disabled
                         defaultValue={this.props.tavid} 
-                        placeholder="KodiName"/>
+                        placeholder="Numri i tavolinës"/>
                     </Form.Group>
 
                     <Form.Group controlId="KodiName">
-                        <Form.Label>KodiName</Form.Label>
+                        <Form.Label>Emri</Form.Label>
                         <Form.Control type="text" name="KodiName" required 
                         defaultValue={this.props.tavname}
-                        placeholder="KodiName"/>
+                        placeholder="Emri i tavolinës"/>
                     </Form.Group>
 
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Update Kodi
+                            Përditësoni Kodin
                         </Button>
                     </Form.Group>
                 </Form>
@@ -74,7 +74,7 @@ centered
     </Modal.Body>
     
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>

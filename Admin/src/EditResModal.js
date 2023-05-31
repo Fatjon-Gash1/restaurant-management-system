@@ -41,7 +41,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Edit Restaurant
+            Editoni Restaurantin
         </Modal.Title>
     </Modal.Header>
     <Modal.Body>
@@ -50,30 +50,30 @@ centered
             <Col sm={6}>
                 <Form onSubmit={this.handleSubmit}>
                 <Form.Group controlId="RestaurantId">
-                        <Form.Label>RestaurantId</Form.Label>
+                        <Form.Label>Numri</Form.Label>
                         <Form.Control type="text" name="RestaurantId" required
                         disabled
                         defaultValue={this.props.resid} 
-                        placeholder="RestaurantName"/>
+                        placeholder="Numri i restaurantit"/>
                     </Form.Group>
 
                     <Form.Group controlId="RestaurantName">
-                        <Form.Label>RestaurantName</Form.Label>
+                        <Form.Label>Emri</Form.Label>
                         <Form.Control type="text" name="RestaurantName" required 
                         defaultValue={this.props.resname}
-                        placeholder="RestaurantName"/>
+                        placeholder="Emri i restaurantit"/>
                     </Form.Group>
 
                     <Form.Group controlId="Lokacioni">
                         <Form.Label>Lokacioni</Form.Label>
                         <Form.Control type="text" name="Lokacioni" required 
                         defaultValue={this.props.lokacioni}
-                        placeholder="Lokacioni"/>
+                        placeholder="Emri i lokacionit"/>
                     </Form.Group>
 
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Update Restaurant
+                            Përditësoni Restaurantin
                         </Button>
                     </Form.Group>
                 </Form>
@@ -82,7 +82,7 @@ centered
     </Modal.Body>
     
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>

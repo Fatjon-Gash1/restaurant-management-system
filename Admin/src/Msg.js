@@ -54,10 +54,10 @@ export class Msg extends Component {
                 <Table className="mt-4" striped bordered hover size="sm" className="big-screen" variant="dark">
                     <thead>                   
                         <tr>
-                            <th>ID</th>
-                            <th width="19%">Emri i shenuesit</th>                            
-                            <th>MSG</th>                            
-                            <th>Options</th>
+                            <th>Numri</th>
+                            <th width="19%">Emri i Dërguesit</th>                            
+                            <th>Mesazhi</th>                            
+                            <th>Opsionet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -73,7 +73,7 @@ export class Msg extends Component {
                                        
                                         <Button className="mr-2" variant="danger"
                                             onClick={() => this.deleteMsg(msg.MsgId)}>
-                                            Delete
+                                            Fshij
         </Button>                                      
                                     </ButtonToolbar>
 

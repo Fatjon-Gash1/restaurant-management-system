@@ -43,7 +43,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Edit Team
+            Editoni Anëtarin
         </Modal.Title>
     </Modal.Header>
     <Modal.Body>
@@ -52,38 +52,43 @@ centered
             <Col sm={6}>
                 <Form onSubmit={this.handleSubmit}>
                 <Form.Group controlId="TeamId">
-                        <Form.Label>TeamId</Form.Label>
+                        <Form.Label>Numri</Form.Label>
                         <Form.Control type="text" name="TeamId" required
                         disabled
                         defaultValue={this.props.teamsid} 
-                        placeholder="TeamName"/>
+                        placeholder="Shtypni numrin"/>
                     </Form.Group>
 
                     <Form.Group controlId="TeamName">
-                        <Form.Label>TeamName</Form.Label>
+                        <Form.Label>Emri i Anëtarit</Form.Label>
                         <Form.Control type="text" name="TeamName" required 
                         defaultValue={this.props.teamsname}
-                        placeholder="TeamName"/>
+                        placeholder="Shtypni emrin"/>
                     </Form.Group>
 
                     <Form.Group controlId="TeamSurname">
-                        <Form.Label>TeamSurname</Form.Label>
+                        <Form.Label>Mbiemri i Anëtarit</Form.Label>
                         <Form.Control type="text" name="TeamSurname" required 
                         defaultValue={this.props.teamsurname}
-                        placeholder="TeamSurname"/>
+                        placeholder="Shtypni mbiemrin"/>
                     </Form.Group>
 
                     
                     <Form.Group controlId="Position">
-                        <Form.Label>Position</Form.Label>
-                        <Form.Control type="text" name="Position" required 
-                        defaultValue={this.props.position}
-                        placeholder="Position"/>
+                        <Form.Label>Pozita</Form.Label>            
+                        <Form.Control as="select" name="Position" required 
+                        defaultValue={this.props.position}>
+                        <option value="Pacaktuar">Pacaktuar</option>
+                        <option value="IT">IT</option>
+                        <option value="Menagjer">Menagjer</option>
+                        <option value="Kuzhinier">Kuzhinier</option>
+                        <option value="Kamarier">Kamarier</option>
+                        </Form.Control>
                     </Form.Group>
 
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Update Team
+                            Përditësoni
                         </Button>
                     </Form.Group>
                 </Form>
@@ -92,7 +97,7 @@ centered
     </Modal.Body>
     
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>

@@ -44,7 +44,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Edit Drink
+            Editoni Pijen
         </Modal.Title>
     </Modal.Header>
     <Modal.Body>
@@ -53,32 +53,32 @@ centered
             <Col sm={6}>
                 <Form onSubmit={this.handleSubmit}>
                 <Form.Group controlId="DrinkId">
-                        <Form.Label>DrinkId</Form.Label>
+                        <Form.Label>Numri</Form.Label>
                         <Form.Control type="text" name="DrinkId" required 
-                        placeholder="DrinkId"
+                        placeholder="Numri i pijes"
                         disabled
                         defaultValue={this.props.drinkid}/>
                     </Form.Group>
 
                     <Form.Group controlId="DrinkName">
-                        <Form.Label>DrinkName</Form.Label>
+                        <Form.Label>Emri</Form.Label>
                         <Form.Control type="text" name="DrinkName" required 
                         defaultValue={this.props.drinkname}
-                        placeholder="DrinkName"/>
+                        placeholder="Emri i pijes"/>
                     </Form.Group>
 
                     <Form.Group controlId="Price">
-                        <Form.Label>Price</Form.Label>
+                        <Form.Label>Çmimi</Form.Label>
                         <Form.Control type="text" name="Price" required 
                         defaultValue={this.props.price}
-                        placeholder="Price"/>
+                        placeholder="Shkruani çmimin"/>
                     </Form.Group>
                     
                 
 
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Update Drink
+                            Përditësoni Pijen
                         </Button>
                     </Form.Group>
                 </Form>
@@ -87,7 +87,7 @@ centered
     </Modal.Body>
     
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>
