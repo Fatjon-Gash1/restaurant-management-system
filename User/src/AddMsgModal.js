@@ -40,7 +40,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Shto Msg
+            Shkruani Mesazh
         </Modal.Title>
     </Modal.Header>
 
@@ -52,20 +52,20 @@ centered
                     <th>
                         
                     <Form.Group controlId="Emri" >
-                        <Form.Label>Emri</Form.Label>
-                        <Form.Control type="text" name="Emri"
-                        placeholder="Shkruaj Emrin ketu" />
+                        <Form.Label>Emri Juaj</Form.Label>
+                        <Form.Control type="text" name="Emri"  style={{width: "200px"}}
+                        placeholder="Shkruani emrin këtu" />
                     </Form.Group>
 
                     <Form.Group controlId="MsgName" >
-                        <Form.Label>MsgName</Form.Label>
-                        <Form.Control type="text" name="MsgName" required rows='3'   style={{width: "500px" , height: "300px" }}
-                        placeholder="Shkruaj Mesazhin ketu" />
+                        <Form.Label>Mesazhi</Form.Label>
+                        <Form.Control type="text" name="MsgName" required rows='3'   style={{width: "500px" , height: "150px" }}
+                        placeholder="Shkruani mesazhin këtu..." />
                     </Form.Group>
 </th>
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Ruaj Msg
+                            Dergoni Mesazhin
                         </Button>
                     </Form.Group>
                 </Form>
@@ -74,7 +74,7 @@ centered
     </Modal.Body>
     </table>
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>
