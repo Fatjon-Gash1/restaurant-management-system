@@ -1,10 +1,13 @@
 .bigbutton  {
-    width: 180px;
+    width: auto;
     height: 50px;
-    background: #044cc0c2;     
+    background: #17a2b8b8;
     font-size: 130%;
     align-items: center;
    
+  }
+  .bigbutton:hover {
+    background-color: #007bff;
   }
   
   
