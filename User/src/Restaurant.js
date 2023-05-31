@@ -40,7 +40,7 @@ export class Restaurant extends Component {
                 <Table className="mt-4" striped bordered hover size="sm" className="big-screen" variant="dark">
                     <thead>
                         <tr>
-                            <th>RestaurantName</th>
+                            <th>Emri i Restaurantit</th>
                             <th>Lokacioni</th>
 
                         </tr>

@@ -40,7 +40,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Add Restaurant
+            Shtoni Restaurant
         </Modal.Title>
     </Modal.Header>
 
@@ -51,21 +51,21 @@ centered
                 <Form onSubmit={this.handleSubmit}>
                     <th>
                     <Form.Group controlId="RestaurantName">
-                        <Form.Label>RestaurantName</Form.Label>
+                        <Form.Label>Emri i Restaurantit</Form.Label>
                         <Form.Control type="text" name="RestaurantName" required 
-                        placeholder="RestaurantName"/>
+                        placeholder="Shkruani Emrin"/>
                     </Form.Group>
 </th>
 <th>
                     <Form.Group controlId="RestaurantName">
-                        <Form.Label>RestaurantName</Form.Label>
+                        <Form.Label>Emri i Restaurantit</Form.Label>
                         <Form.Control type="text" name="RestaurantName" required 
-                        placeholder="RestaurantName"/>
+                        placeholder="Shkruani Emrin"/>
                     </Form.Group>
 </th>
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Add Restaurant
+                            Shtoni Restaurant
                         </Button>
                     </Form.Group>
                 </Form>
@@ -74,7 +74,7 @@ centered
     </Modal.Body>
     </table>
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>

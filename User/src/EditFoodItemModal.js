@@ -44,7 +44,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Edit FoodItem
+            Editoni Ushqimin
         </Modal.Title>
     </Modal.Header>
     <Modal.Body>
@@ -53,32 +53,32 @@ centered
             <Col sm={6}>
                 <Form onSubmit={this.handleSubmit}>
                 <Form.Group controlId="FoodItemId">
-                        <Form.Label>FoodItemId</Form.Label>
+                        <Form.Label>Numri</Form.Label>
                         <Form.Control type="text" name="FoodItemId" required 
-                        placeholder="FoodItemId"
+                        placeholder="Shkruaj numrin"
                         disabled
                         defaultValue={this.props.fooditemid}/>
                     </Form.Group>
 
                     <Form.Group controlId="FoodItemName">
-                        <Form.Label>FoodItemName</Form.Label>
+                        <Form.Label>Emri i Ushqimit</Form.Label>
                         <Form.Control type="text" name="FoodItemName" required 
                         defaultValue={this.props.fooditemname}
-                        placeholder="FoodItemName"/>
+                        placeholder="Shkruaj emrin"/>
                     </Form.Group>
 
                     <Form.Group controlId="Price">
-                        <Form.Label>Price - €</Form.Label>
+                        <Form.Label>Çmimi - €</Form.Label>
                         <Form.Control type="text" name="Price" required 
                         defaultValue={this.props.price}
-                        placeholder="Price"/>
+                        placeholder="Shkruaj çmimin"/>
                     </Form.Group>
                     
                 
 
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Update FoodItem
+                            Përditësoni
                         </Button>
                     </Form.Group>
                 </Form>
@@ -87,7 +87,7 @@ centered
     </Modal.Body>
     
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>

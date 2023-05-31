@@ -115,14 +115,14 @@ centered
                     
 
                 <Form.Group controlId="Kodi" >
-                        <Form.Label>Kodi i Tavolines</Form.Label>
+                        <Form.Label>Kodi i Tavolinës</Form.Label>
                         <Form.Control type="text" name="Kodi"
                         placeholder="Shkruani kodin e tavolines" />
                     </Form.Group>
 
             
                     <Form.Group controlId="ChineseFoods">
-                        <Form.Label>ChineseFoods</Form.Label>
+                        <Form.Label>Ushqimet Kineze</Form.Label>
                         <Form.Control as="select">
                         <option value="">Zgjedh Ushqimin</option>
                         {this.state.chinesefoods.map(chinesefoods=>
@@ -131,7 +131,7 @@ centered
                     </Form.Group>
 
                     <Form.Group controlId="ItalianFoods">
-                        <Form.Label>ItalianFoods</Form.Label>
+                        <Form.Label>Ushqimet Italiane</Form.Label>
                         <Form.Control as="select">
                         <option value="">Zgjedh Ushqimin</option>
                         {this.state.italianfoods.map(italianfoods=>
@@ -140,7 +140,7 @@ centered
                     </Form.Group>
 
                     <Form.Group controlId="Desserts">
-                        <Form.Label>Desserts</Form.Label>
+                        <Form.Label>Ëmbëlsirat</Form.Label>
                         <Form.Control as="select">
                         <option value="">Zgjedh Ushqimin</option>
                         {this.state.desserts.map(desserts=>
@@ -149,7 +149,7 @@ centered
                     </Form.Group>
 
                     <Form.Group controlId="SeaFoods">
-                        <Form.Label>SeaFoods</Form.Label>
+                        <Form.Label>Ushqimet e Detit</Form.Label>
                         <Form.Control as="select">
                         <option value="">Zgjedh Ushqimin</option>
                         {this.state.seafoods.map(seafoods=>
@@ -158,7 +158,7 @@ centered
                     </Form.Group>
 
                     <Form.Group controlId="FastFood">
-                        <Form.Label>FastFood</Form.Label>
+                        <Form.Label>FastFoods</Form.Label>
                         <Form.Control as="select">
                         <option value="">Zgjedh Ushqimin</option>
                         {this.state.fastfood.map(fastfood=>
@@ -168,7 +168,7 @@ centered
 
                 
                     <Form.Group controlId="Tradicional">
-                        <Form.Label>Tradicional</Form.Label>
+                        <Form.Label>Ushqimet Tradicionale</Form.Label>
                         <Form.Control as="select">
                         <option value="">Zgjedh Ushqimin</option>
                         {this.state.tradicionals.map(tradicional=>
@@ -177,7 +177,7 @@ centered
                     </Form.Group>
 
                     <Form.Group controlId="Salads">
-                        <Form.Label>Salads</Form.Label>
+                        <Form.Label>Sallatat</Form.Label>
                         <Form.Control as="select">
                         <option value="">Zgjedh Ushqimin</option>
                         {this.state.salads.map(salads=>
@@ -186,7 +186,7 @@ centered
                     </Form.Group>
 
                     <Form.Group controlId="Other">
-                        <Form.Label>Other Food</Form.Label>
+                        <Form.Label>Ushqime të Tjera</Form.Label>
                         <Form.Control as="select">
                         <option value="">Zgjedh Ushqimin</option>
                         {this.state.other.map(other=>
@@ -196,7 +196,7 @@ centered
 
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Add Food
+                            Porosit
                         </Button>
                     </Form.Group>
                 </Form>
@@ -205,7 +205,7 @@ centered
     </Modal.Body>
     
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>

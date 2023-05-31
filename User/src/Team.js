@@ -38,9 +38,9 @@ export class Team extends Component {
                 <Table className="mt-4" striped bordered hover size="sm"  className="big-screen" variant="dark">
                     <thead>
                         <tr>                            
-                            <th>TeamName</th>
-                            <th>TeamSurname</th>
-                            <th>Position</th>                            
+                            <th>Emri</th>
+                            <th>Mbiemri</th>
+                            <th>Pozita</th>                            
                         </tr>
                     </thead>
                     <tbody>

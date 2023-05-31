@@ -43,7 +43,7 @@ centered
 >
     <Modal.Header clooseButton>
         <Modal.Title id="contained-modal-title-vcenter">
-            Add FoodItem
+            Shtoni Ushqimin
         </Modal.Title>
     </Modal.Header>
     <Modal.Body>
@@ -52,22 +52,22 @@ centered
             <Col sm={6}>
                 <Form onSubmit={this.handleSubmit}>
                     <Form.Group controlId="FoodItemName">
-                        <Form.Label>FoodItemName</Form.Label>
+                        <Form.Label>Emri i Ushqimit</Form.Label>
                         <Form.Control type="text" name="FoodItemName" required 
-                        placeholder="FoodItemName"/>
+                        placeholder="Shkruani emrin"/>
                     </Form.Group>
 
                     <Form.Group controlId="Price">
-                        <Form.Label>Price - €</Form.Label>
+                        <Form.Label>Çmimi - €</Form.Label>
                         <Form.Control type="Price" name="Price" required 
-                        placeholder="Price"/>
+                        placeholder="Shkruani Çmimin"/>
                     </Form.Group>
 
 
 
                     <Form.Group>
                         <Button variant="primary" type="submit">
-                            Add FoodItem
+                            Shtoni Ushqimin
                         </Button>
                     </Form.Group>
                 </Form>
@@ -77,7 +77,7 @@ centered
     </Modal.Body>
     
     <Modal.Footer>
-        <Button variant="danger" onClick={this.props.onHide}>Close</Button>
+        <Button variant="danger" onClick={this.props.onHide}>Mbyll</Button>
     </Modal.Footer>
 
 </Modal>

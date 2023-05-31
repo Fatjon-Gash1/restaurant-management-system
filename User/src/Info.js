@@ -16,7 +16,7 @@ const Info = () => {
 
                     <tr>
 
-                        <th>INFO</th>
+                        <th>Informacion per perdorim!</th>
 
                     </tr>
 
@@ -27,12 +27,12 @@ const Info = () => {
                     </tr>
                     <tr>
                         <ul>
-                            <li>Restaurant - Tek opsioni Restaurant mund te gjeni Restaurantin perkates. </li>
-                            <li>Foods - Tek opsioni Food Menu mund te gjeni menute ushqimore. </li>
-                            <li>Drinks - Tek opsioni Drink Menu mund te gjeni pijet. </li>
-                            <li>Porosit - Tek opsioni Porosit ju mund te beni porosite e deshiruara.</li>
-                            <li>Team - Tek opsioni Team mund te gjeni pjestaret e stafit te cilet sherbejne ne kete restaurant. </li>
-                            <li>Message - Tek opsioni Message ju mund te lini mesazhin e deshiruar ne menyre qe restauranti te dije mendimet e konsumatoreve. </li>
+                            <li>Restaurantet - Tek opsioni "Restaurantet" mund te gjeni Restaurantin perkates. </li>
+                            <li>Ushqimet - Tek opsioni "Ushqimet" mund te gjeni menute ushqimore. </li>
+                            <li>Pijet - Tek opsioni "Pijet" mund te gjeni pijet. </li>
+                            <li>Porosit - Tek opsioni "Porosit" ju mund te beni porosite e deshiruara.</li>
+                            <li>Staf - Tek opsioni "Staf" mund te gjeni pjestaret e stafit te cilet sherbejne ne kete restaurant. </li>
+                            <li>Shkruaj Mesazh - Tek opsioni "Shkruaj Mesazh" ju mund te lini mesazhin e deshiruar ne menyre qe ne te dijme mendimin tuaj per ne! </li>
                         </ul>
                         {/* <th>Info rreth Aplikacionoit...</th> */}
                     </tr>

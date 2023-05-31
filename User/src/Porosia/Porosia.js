@@ -33,7 +33,7 @@ export class Food extends Component{
     }
 
     deleteFood(fid){
-        if(window.confirm('Are you sure?')){
+        if(window.confirm('A jeni i Sigurt?')){
             fetch('https://localhost:44365/api/food/'+fid,{
                 method:'DELETE',
                 header:{'Accept':'application/json',
@@ -48,19 +48,19 @@ export class Food extends Component{
         return(
             <div >
                 < br></br>
-                <Table className="mt-4" striped bordered hover size="sm" className="big-screen" variant="dark">
+                <Table className="mt-4" striped bordered hover size="sm" className="big-screen" variant="dark" >
                     <thead>
                         <tr>
                         <th>Tavolina</th>
-                        <th>ChineseFoods</th>
-                        <th>ItalianFoods</th>
-                        <th>Desserts</th>
-                        <th>SeaFoods</th>
-                        <th>FastFood</th>
-                        <th>Tradicional</th>
-                        <th>Salads</th>
-                        <th>Other</th>
-                        <th>Total Price</th>
+                        <th>Ushqimet Kineze</th>
+                        <th>Ushqimet Italiane</th>
+                        <th>Ëmbëlsirat</th>
+                        <th>Ushqimet e Detit</th>
+                        <th>FastFoods</th>
+                        <th>Ushqimet Tradicionale</th>
+                        <th>Sallatat</th>
+                        <th>Të Tjera</th>
+                        <th>Çmimi Total</th>
                        
                         </tr>
                     </thead>
@@ -68,9 +68,9 @@ export class Food extends Component{
                         {foods.map(food=>
                            <tr key={food.FID}>
                            {/* <td>{food.FID}</td> */}
-                                <td>{food.Kodi}</td>
+                                <td>{food.Kodi}</td> 
                                 <td>{food.ChineseFoods}</td>
-                                <td>{food.ItalianFoods}</td>
+                                <td>{food.ItalianFoods}</td> 
                                 <td>{food.Desserts}</td>
                                 <td>{food.SeaFoods}</td>
                                 <td>{food.FastFood}</td>
@@ -154,7 +154,7 @@ export class Drinks extends Component{
     }
 
     deleteFood(did){
-        if(window.confirm('Are you sure?')){
+        if(window.confirm('A jeni i Sigurt?')){
             fetch('https://localhost:44365/api/drinks/'+did,{
                 method:'DELETE',
                 header:{'Accept':'application/json',
@@ -174,12 +174,12 @@ export class Drinks extends Component{
                     <thead>
                         <tr>
                         <th>Tavolina</th>
-                        <th>Alcoholic</th>
-                        <th>NonAlcoholic</th>
-                        <th>Tea</th>
-                        <th>Coffee</th>
-                        <th>OtherD</th>
-                        <th>TotalPrice</th>
+                        <th>Alkoolike</th>
+                        <th>Jo-Alkoolike</th>
+                        <th>Qaj</th>
+                        <th>Kafe</th>
+                        <th>Të Tjera</th>
+                        <th>Çmimi Total</th>
                                                
                         </tr>
                     </thead>
