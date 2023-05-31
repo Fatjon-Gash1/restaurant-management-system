@@ -28,7 +28,7 @@ export class Msg extends Component {
     }
 
     deleMsg(msgid) {
-        if (window.confirm('Are you sure?')) {
+        if (window.confirm('A jeni i Sigurt?')) {
             fetch('https://localhost:44365/api/msg/' + msgid, {
                 method: 'DELETE',
                 header: {
@@ -54,7 +54,7 @@ export class Msg extends Component {
                     
                     <Button variant='primary' 
                         onClick={() => this.setState({ addModalShow: true })}>
-                        Add Msg</Button>
+                        Shkruani Mesazhin</Button>
 
                     <AddMsgModal show={this.state.addModalShow}
                         onHide={addModalClose} />
