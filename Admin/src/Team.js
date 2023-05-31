@@ -32,7 +32,7 @@ export class Team extends Component {
     }
 
     deleteTeams(tid) {
-        if (window.confirm('Are you sure?')) {
+        if (window.confirm('A jeni i Sigurt?')) {
             fetch('https://localhost:44365/api/team/' + tid, {
                 method: 'DELETE',
                 header: {
@@ -55,11 +55,11 @@ export class Team extends Component {
                 <Table className="big-screen" striped bordered hover size="sm" variant="dark">
                     <thead>
                         <tr>
-                            <th>TeamId</th>
-                            <th>TeamName</th>
-                            <th>TeamSurname</th>
-                            <th>Position</th>
-                            <th>Options</th>
+                            <th>Numri</th>
+                            <th>Emri</th>
+                            <th>Mbiemri</th>
+                            <th>Pozita</th>
+                            <th>Opsionet</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -76,12 +76,12 @@ export class Team extends Component {
                                                 editModalShow: true,
                                                 teamsid: teams.TeamId, teamsname: teams.TeamName,teamsurname: teams.TeamSurname, position: teams.Position
                                             })}>
-                                            Edit
+                                            Editoni
         </Button>
 
                                         <Button className="mr-2" variant="danger"
                                             onClick={() => this.deleteTeams(teams.TeamId)}>
-                                            Delete
+                                            Fshij
         </Button>
 
                                         <EditTeamModal show={this.state.editModalShow}
@@ -102,7 +102,7 @@ export class Team extends Component {
                 <ButtonToolbar>
                     < Button variant='primary' className="bigbutton"
                         onClick={() => this.setState({ addModalShow: true })}>
-                        Shto Teams</Button>
+                        Shtoni Anëtar</Button>
 
                     <AddTeamModal show={this.state.addModalShow}
                         onHide={addModalClose} />
