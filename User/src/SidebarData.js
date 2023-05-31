@@ -9,24 +9,25 @@ import * as CgIcons from 'react-icons/cg';
 import * as SiIcons from 'react-icons/si';
 import * as GiIcons from 'react-icons/gi';
 import * as FcIcons from 'react-icons/fc';
+import * as GameIcons from "react-icons/gi";
 
 export const SidebarData = [
     {
-      title: 'Home',
+      title: 'Përdorues',
       path: '/overview',
-      icon: <AiIcons.AiFillHome />,
+      icon: <FaIcons.FaUser />,
       iconClosed: <RiIcons.RiArrowDownSFill />,
       iconOpened: <RiIcons.RiArrowUpSFill />,
   
       
     },
     {
-      title: 'Restaurant',
+      title: 'Restaurantet',
       path: '/restaurant',
-      icon: <IoIcons.IoIosRestaurant />,
+      icon: <FaIcons.FaRegBuilding />,
     },
     {
-      title: 'Food Menu',
+      title: 'Ushqimet',
       path: 'foods/foods',
       icon: <IoIcons.IoMdRestaurant/>,
       iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -34,49 +35,49 @@ export const SidebarData = [
   
       subNav: [
         {
-          title: 'Tradicional',
+          title: 'Ushqimet Tradicionale',
           path: '/foods/tradicional',
-          icon: <IoIcons.IoMdRestaurant/>,
+          icon: <AiIcons.AiTwotonePieChart/>,
           cName: 'sub-nav'
         },
         {
-          title: 'ChineseFoods',
+          title: 'Ushqimet Kineze',
           path: '/foods/chinesefoods',
-          icon: <IoIcons.IoMdRestaurant/>,
+          icon: <GameIcons.GiWaterDivinerStick/>,
           cName: 'sub-nav'
         },
         {
-          title: 'ItalianFoods',
+          title: 'Ushqimet Italiane',
           path: '/foods/italianfoods',
-          icon: <IoIcons.IoMdRestaurant/>,
+          icon: <FaIcons.FaPizzaSlice/>,
           cName: 'sub-nav'
         },
         {
-          title: 'SeaFoods',
+          title: 'Ushqimet e Detit',
           path: '/foods/seafoods',
-          icon: <IoIcons.IoMdRestaurant/>,
+          icon: <GameIcons.GiSadCrab/>,
           cName: 'sub-nav'
         },
         {
-          title: 'Salads',
+          title: 'Sallatat',
           path: '/foods/salads',
-          icon: <IoIcons.IoMdRestaurant/>,
+          icon: <CgIcons.CgBowl/>,
           cName: 'sub-nav'
         },
         {
-          title: 'Desserts',
+          title: 'Ëmbëlsirat',
           path: '/foods/desserts',
-          icon: <IoIcons.IoMdRestaurant/>,
+          icon: <GameIcons.GiCakeSlice/>,
           cName: 'sub-nav'
         },
         {
-          title: 'FastFood',
+          title: 'FastFoods',
           path: '/foods/fastfood',
-          icon: <IoIcons.IoMdRestaurant/>,
+          icon: <GameIcons.GiHamburger/>,
           cName: 'sub-nav'
         },
         {
-          title: 'Other Food',
+          title: 'Ushqimet e Tjera',
           path: '/foods/other',
           icon: <MdIcons.MdPlaylistAdd />,
           cName: 'sub-nav'
@@ -85,7 +86,7 @@ export const SidebarData = [
       ]
     },
     {
-      title: 'Drink Menu',
+      title: 'Pijet',
       path: '/drinks/drinks',
       icon: <BiIcons.BiDrink/>,
       iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -93,31 +94,31 @@ export const SidebarData = [
   
       subNav: [
         {
-          title: 'NonAlcoholicDrinks',
+          title: 'Pijet Jo-Alkoolike',
           path: '/drinks/nonalcoholic',
           icon: <BiIcons.BiDrink />,
           cName: 'sub-nav'
         },
         {
-          title: 'Alcoholic',
+          title: 'Pijet Alkoolike',
           path: '/drinks/alcoholic',
           icon: <GiIcons.GiGlassCelebration/>,
           cName: 'sub-nav'
         },
         {
-          title: 'Coffe',
+          title: 'Kafet',
           path: '/drinks/coffee',
           icon: <CgIcons.CgCoffee />,
           cName: 'sub-nav'
         },
         {
-          title: 'Tea',
+          title: 'Qajrat',
           path: '/drinks/tea',
           icon: <SiIcons.SiGitea />,
           cName: 'sub-nav'
         },
         {
-          title: 'Other Drink',
+          title: 'Pijet e Tjera',
           path: '/drinks/otherd',
           icon: <MdIcons.MdPlaylistAdd />,
           cName: 'sub-nav'
@@ -134,13 +135,13 @@ export const SidebarData = [
       
       subNav: [
       {
-        title: 'Food',
+        title: 'Ushqime',
         path: '/porosia/food',
         icon: <IoIcons.IoMdRestaurant />,
         cName: 'sub-nav'
       },
       {
-        title: 'Drink',
+        title: 'Pije',
         path: '/porosia/drinks',
         icon: <BiIcons.BiDrink />,
         cName: 'sub-nav'
@@ -149,14 +150,14 @@ export const SidebarData = [
     },
   
     {
-      title: 'Team',
+      title: 'Stafi',
       path: '/team',
-      icon: <FcIcons.FcCustomerSupport />
+      icon: <FaIcons.FaUsers />
     },
     {
-      title: 'Message',
+      title: 'Shkruaj Mesazh',
       path: '/msg',
-      icon: <MdIcons.MdBorderColor />,
+      icon: <BiIcons.BiMessageRoundedEdit />,
       iconClosed: <RiIcons.RiArrowDownSFill />,
       iconOpened: <RiIcons.RiArrowUpSFill />,
       
