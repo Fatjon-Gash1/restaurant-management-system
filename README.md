@@ -1,6 +1,5 @@
-# Restaurant Management System Web Application
-## Maintained By: Fatjon Gashi
-A Test Web Application for managing a restaurant
+# Restaurant Management System 
+ASP.net & React.js Web App
 ***
 First Stage Completed
 ***
