@@ -75,7 +75,7 @@ export class Restaurant extends Component {
                                             Editoni
         </Button>
 
-                                        <Button className="mr-2" variant="danger"
+                                        <Button className="mr-2" variant="danger" id="btn-12"
                                             onClick={() => this.deleteRes(res.RestaurantId)}>
                                             Fshij
         </Button>

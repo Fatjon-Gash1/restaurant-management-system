@@ -79,7 +79,7 @@ export class Team extends Component {
                                             Editoni
         </Button>
 
-                                        <Button className="mr-2" variant="danger"
+                                        <Button className="mr-2" variant="danger" id="btn-12"
                                             onClick={() => this.deleteTeams(teams.TeamId)}>
                                             Fshij
         </Button>
@@ -100,7 +100,7 @@ export class Team extends Component {
                 </Table>
 
                 <ButtonToolbar>
-                    < Button variant='primary' className="bigbutton"
+                    < Button variant='primary' className="bigbutton" id='btn-122'
                         onClick={() => this.setState({ addModalShow: true })}>
                         Shtoni Anëtar</Button>
 
