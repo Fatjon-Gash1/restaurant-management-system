@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2TuqQsJU7ck/VJeNGwiJzWrqCDVh9E3YbI2dM/ZFcMuCRxMlSxfYuWd7dunVaJd45+4UfDMd8lUeZBWWyamWIQ==",
+  "dgSpecHash": "RdHMf5ewj5sBDvhDhmeVAYLX5D5jwSUXsVUht7Z3aaXp7lcYNQo+aYLhbgEpc9tmK/K9VKgu/UVUn7pNXa9Zuw==",
   "success": true,
-  "projectFilePath": "D:\\Web_Projects\\RMS\\BackEnd\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\galac\\Desktop\\RMS_v1.0\\RMS_v1.0\\BackEnd\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\galac\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\3.1.9\\microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
     "C:\\Users\\galac\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\3.1.9\\microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",
@@ -23,5 +23,26 @@
     "C:\\Users\\galac\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\galac\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Data.SqlClient' 4.8.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-8g2p-5pqh-5jmc",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Data.SqlClient' 4.8.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
+      "libraryId": "System.Data.SqlClient",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
