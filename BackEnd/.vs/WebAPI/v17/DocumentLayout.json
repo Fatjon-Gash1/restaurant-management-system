@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|c:\\users\\fatjon\\desktop\\projects\\restaurant-management-system\\backend\\webapi\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\foodcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|c:\\users\\fatjon\\desktop\\projects\\restaurant-management-system\\backend\\webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|c:\\users\\fatjon\\desktop\\projects\\restaurant-management-system\\backend\\webapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|c:\\users\\fatjon\\desktop\\projects\\restaurant-management-system\\backend\\webapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|c:\\users\\fatjon\\desktop\\projects\\restaurant-management-system\\backend\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|c:\\users\\fatjon\\desktop\\projects\\restaurant-management-system\\backend\\webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|c:\\users\\fatjon\\desktop\\projects\\restaurant-management-system\\backend\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{937BABC1-4128-48F2-A90A-FE4D517DB63A}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Models\\Users.cs",
+              "RelativeToolTip": "WebAPI\\Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:46:23.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:25:45.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Controllers\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\RestaurantController.cs",
+              "ToolTip": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Controllers\\RestaurantController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\RestaurantController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:27:31.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\FoodController.cs",
+              "ToolTip": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\FoodController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T17:31:12.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Startup.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Startup.cs",
+              "ToolTip": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Startup.cs",
+              "RelativeToolTip": "WebAPI\\Startup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:38:33.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-01T16:38:33.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-01T16:38:33.967Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

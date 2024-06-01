@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\galac\\Desktop\\RMS_v1.0\\RMS_v1.0\\BackEnd\\WebAPI\\WebAPI.csproj": {}
+    "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\galac\\Desktop\\RMS_v1.0\\RMS_v1.0\\BackEnd\\WebAPI\\WebAPI.csproj": {
+    "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\galac\\Desktop\\RMS_v1.0\\RMS_v1.0\\BackEnd\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "C:\\Users\\galac\\Desktop\\RMS_v1.0\\RMS_v1.0\\BackEnd\\WebAPI\\WebAPI.csproj",
-        "packagesPath": "C:\\Users\\galac\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\galac\\Desktop\\RMS_v1.0\\RMS_v1.0\\BackEnd\\WebAPI\\obj\\",
+        "projectPath": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\WebAPI.csproj",
+        "packagesPath": "C:\\Users\\fatjon\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fatjon\\Desktop\\Projects\\restaurant-management-system\\BackEnd\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\galac\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\fatjon\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,24 +65,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.32, 3.1.32]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -90,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
