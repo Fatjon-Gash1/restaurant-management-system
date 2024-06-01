@@ -22,7 +22,7 @@ const Register = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://localhost:44365/api/Users', {
+      const response = await fetch('https://localhost:44365/api/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -45,7 +45,7 @@ const Register = () => {
   };
 
   return (
-    <div style={{ maxWidth: '400px', margin: 'auto', padding: '20px', border: '1px solid #ccc', borderRadius: '5px' }}>
+    <div style={{ maxWidth: '400px', margin: 'auto', padding: '20px', border: '1px solid #ccc', borderRadius: '5px', backgroundColor: '#f9f9f9', marginTop: '20px' }}>
       <h2 style={{ textAlign: 'center' }}>Register</h2>
       {registrationStatus === 'success' && <p style={{ color: 'green' }}>Registration successful!</p>}
       {registrationStatus === 'error' && <p style={{ color: 'red' }}>Registration failed. Please try again.</p>}
@@ -98,4 +98,10 @@ const Register = () => {
             style={{ padding: '5px', borderRadius: '3px', border: '1px solid #ccc' }}
           />
         </div>
-        <button type="submit" style={{ padding: '10px',
+        <button type="submit" style={{ padding: '10px', borderRadius: '3px', border: 'none', backgroundColor: '#007bff', color: '#fff', cursor: 'pointer' }}>Register</button>
+      </form>
+    </div>
+  );
+};
+
+export default Register;

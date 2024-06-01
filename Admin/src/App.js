@@ -5,12 +5,14 @@ import Overview from './Overview';
 import Restaurant from './Restaurant'
 import Kodi from './Kodi'
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './Reports';
-import Endriti from './Endriti1.png';
+import App_Logo from './App_Logo.png';
 import { Foods, Tradicional, ChineseFoods, ItalianFoods,SeaFoods,Salads,Desserts,FastFood,Other,Hof } from './Foods/Foods';
 import {Drinks, Alcoholic, NonAlcoholic, Tea, Coffee, Hod, OtherD} from './Drinks/Drinks';
 import { Team } from './Team';
 import { Msg } from './Msg';
 import { Food, Drink } from './Porosia/Porosia';
+import Login from './Login/Login';
+import Register from './Register/Register';
 
 
 
@@ -22,11 +24,14 @@ function App() {
     <Router>
     <div className="container">
       <h3 className="m-3 d-flex justify-content-center"style={{color: '#2567C3'} }>
-      <img src={Endriti}height={150} width={350}/>
+      <img src={App_Logo}height={150} width={350}/>
       
        </h3>
        <Sidebar />
       <Switch>
+
+        <Route path='/register' exact component={Register} />
+        <Route path='/login' exact component={Login} />
         <Route path='/overview' exact component={Overview} />
         <Route path='/reports' exact component={Reports} />
         <Route path='/reports/reports1' exact component={ReportsOne} />

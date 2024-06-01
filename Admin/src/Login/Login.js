@@ -20,7 +20,7 @@ const Login = () => {
     e.preventDefault();
     
     try {
-      const response = await fetch('https://localhost:44365/api/Users', {
+      const response = await fetch('https://localhost:44365/api/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ const Login = () => {
   };
 
   return (
-    <div style={{ maxWidth: '400px', margin: 'auto', padding: '20px', border: '1px solid #ccc', borderRadius: '5px' }}>
+    <div style={{ maxWidth: '400px', margin: 'auto', padding: '20px', border: '1px solid #ccc', borderRadius: '5px', backgroundColor: '#f9f9f9', marginTop: '20px' }}>
       <h2 style={{ textAlign: 'center' }}>Login</h2>
       {loginStatus === 'success' && <p style={{ color: 'green' }}>Login successful!</p>}
       {loginStatus === 'error' && <p style={{ color: 'red' }}>Login failed. Please try again.</p>}

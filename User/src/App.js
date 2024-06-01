@@ -6,7 +6,7 @@ import Restaurant from './Restaurant'
 import Team from './Team'
 import Msg from './Msg'
 import { Reports, ReportsOne, ReportsTwo, ReportsThree } from './Reports';
-import Endriti from './Endriti1.png';
+import App_Logo from './App_Logo.png';
 import { Foods, Tradicional, ChineseFoods, ItalianFoods,SeaFoods,Salads,Desserts,FastFood,Other} from './Foods/Foods';
 import {Drink, Alcoholic, NonAlcoholic, Tea, Coffee,OtherD} from './Drink/Drink';
 import { Food, Drinks } from './Porosia/Porosia';
@@ -24,7 +24,7 @@ function App() {
     <Router>
     <div className="container">
       <h3 className="m-3 d-flex justify-content-center"style={{color: '#2567C3'} }>
-      <img src={Endriti}height={150} width={350}/>
+      <img src={App_Logo}height={150} width={350}/>
       
        </h3>
        <Sidebar />

@@ -1,5 +1,5 @@
 import React from 'react';
-import Endritii from './Endriti2.png';
+import App_Logo2 from './App_Logo2.png';
 
 export const Reports = () => {
   return (
@@ -13,7 +13,7 @@ export const ReportsOne = () => {
   return (
     <div className='reports'>
       <h3 className="m-3 d-flex justify-content-end"style={{color: '#2567C3'} }>
-      <img src={Endritii}height={100} width={120}/>
+      <img src={App_Logo2}height={100} width={120}/>
       </h3>
     </div>
   );
