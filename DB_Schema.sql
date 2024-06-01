@@ -71,6 +71,17 @@ Drinki varchar(100)
 DBCC CHECKIDENT ('Useri', RESEED, 1)
 insert into Useri (UserName, Restaurant, FoodItem, Drinki) values ('Emri', 'Restaurant Marinari', 'Levrek', 'Coca Cola') 
 -----------------------------------------------------------------------------
+CREATE TABLE Users (
+    UserID INT PRIMARY KEY IDENTITY(1,1),
+    Username NVARCHAR(50) NOT NULL,
+    PasswordHash NVARCHAR(100) NOT NULL,
+    Email NVARCHAR(100) NOT NULL,
+    CreatedAt DATETIME DEFAULT GETDATE(),
+    IsActive BIT DEFAULT 1
+);
+
+insert into Users (Username, PasswordHash, Email) values ('filani', 'filani123', 'filani123@gmail.com') 
+
 create table Tradicional(
 TradicionalId  int identity(1,1),
 TradicionalName  varchar(100),
